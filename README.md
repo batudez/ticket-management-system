@@ -18,15 +18,20 @@ KULLANILAN TEKNOLOJİLER
 
 KURULUM VE ÇALIŞTIRMA
 
--Projeyi çalıştırmak ve test etmek için
- git clone https://github.com/batudez/ticket-management-system.git
--Jira hesabınız yoksa Jira hesabı oluşturunuz.
--Oluşturduğunuz bu hesap ile yeni bir proje oluşturunuz.
--Projemizde swagger üzerinden aynı project-key'e sahip bir proje oluşturunuz.
--Jira hesabınızdan yeni bir api Token oluşturunuz.
--Jira hesap bilgilerinizi environment dosyasında kolaylıkla güncelleyiniz.
--Gerekli docker kurulumlarını gerçekleştiriniz.
--Proje dizinine girip docker-compose.yml dosyasının var olduğunu doğruladıktan sonra,
- aşağıdaki komutla projeyi başlatabilirsiniz:
+Projeyi çalıştırmak ve test etmek için git clone https://github.com/batudez/ticket-management-system.git.
+
+Jira hesabınız yoksa Jira hesabı oluşturunuz.
+
+Oluşturduğunuz bu hesap ile yeni bir proje oluşturunuz.
+
+Projemizde swagger üzerinden aynı project-key'e sahip bir proje oluşturunuz.
+
+Jira hesabınızdan yeni bir api Token oluşturunuz.
+
+Jira hesap bilgilerinizi environment dosyasında kolaylıkla güncelleyiniz.
+
+Gerekli docker kurulumlarını gerçekleştiriniz.
+
+Proje dizinine girip docker-compose.yml dosyasının var olduğunu doğruladıktan sonra aşağıdaki komutla projeyi başlatabilirsiniz:
 
   --docker-compose up --build
