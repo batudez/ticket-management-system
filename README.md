@@ -1,6 +1,6 @@
 TICKET-MANAGEMENT-SYSTEM
 
-Proje Özeti\n
+Proje Özeti
 Ticket-Management-System, Jira API'si yardımıyla issue'ların takibini kolaylaştıran ve bu issue'ları veritabanında saklayan bir otomasyon sistemidir. Proje, ticket yönetimi süreçlerini daha verimli hale getirmek amacıyla geliştirilmiştir. NestJS, Prisma ORM, JWT, Docker, ve PostgreSQL teknolojilerini kullanarak inşa edilmiştir. Projede Postman ve Swagger ile test süreçleri yürütülmüş, anlık bildirimler için WebSocket teknolojisi entegre edilmiştir. Bu sayede yeni bir ticket oluşturulduğunda, ticket'ın atandığı kullanıcıya anlık bildirim gönderilir.
 
 Docker kullanarak projeyi konteynerize ettik, böylece farklı ortamlarda çalıştırılması ve uzun vadeli ölçeklendirme işlemleri kolaylaştırılmıştır. PostgreSQL veritabanı da Docker üzerinde çalıştırılmaktadır.
